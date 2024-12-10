@@ -5,6 +5,7 @@ const pool = createPool({
   password: 'vXJXtUFkfT',
   database: 'sql12747039',
   port: 3306,
+  connectionLimit: 10,
   connectTimeout: 120000  // 120 seconds
 });
 
